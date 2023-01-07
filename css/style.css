@@ -70,21 +70,17 @@ header {
     align-items: center;
 margin-top: 130px;
 }
-
 .failure-section>img {
     width: 570px;
     margin-left: 150px;
     margin-right: 40px;
 
 }
-
 .failure-section-details {
-
     margin-right: 230px;
 }
 
 .failure-section h3 {
-
     width: 288px;
     color: #151414;
     font-weight: 700;
@@ -95,7 +91,6 @@ margin-top: 130px;
 
 
 .failure-section-desc {
-
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -123,7 +118,43 @@ margin-top: 130px;
     margin-right: 10px;
 
 }
-
+/* workout */
+.workout{
+    margin: 130px 0px;
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/workout.jpg);
+background-repeat: no-repeat;
+background-size:cover;
+background-position: right 000px bottom 0px;
+color: white;
+}
+.workout-contents{
+    background-image: linear-gradient(90deg, rgb(0, 26, 49) 0%,rgba(1, 108, 201, 0.466)50%, rgba(0, 95, 172, 0) 100%);
+    height: 100%;
+    width: 100%;
+}
+.workout h3{
+    font-weight: 600;
+    font-size: 58px;
+    margin-left:230px;
+    padding-top:100px;
+}
+.workout h5{
+    font-weight: 500;
+    font-size: 28px;
+    margin-left: 235px;
+    margin-top: .1em;
+    color: #b6b6b6;
+}
+.workout p{
+font-weight: 300;
+margin-left: 235px;
+font-size: 16px;
+margin-top: .5em;
+width: 400px;
+color:#e0e0e0;
+}
 /* my plans */
 .my-plans {
 
