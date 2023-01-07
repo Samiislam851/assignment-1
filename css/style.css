@@ -120,36 +120,40 @@ margin-top: 130px;
 }
 /* workout */
 .workout{
-    margin: 130px 0px;
-    width: 100%;
+    margin: 130px 230px 130px 200px;
+    width: 70%;
+    /* margin: auto; */
     height: 400px;
     background-image: url(../images/workout.jpg);
 background-repeat: no-repeat;
 background-size:cover;
 background-position: right 000px bottom 0px;
 color: white;
+border-radius: 10px;
 }
 .workout-contents{
-    background-image: linear-gradient(90deg, rgb(0, 26, 49) 0%,rgba(1, 108, 201, 0.466)50%, rgba(0, 95, 172, 0) 100%);
+    background-image: linear-gradient(90deg, rgb(0, 61, 114) 0%,rgba(0, 61, 114, 0.3)50%, rgba(0, 95, 172, 0) 100%);
     height: 100%;
     width: 100%;
+    
+border-radius: 10px;
 }
 .workout h3{
     font-weight: 600;
     font-size: 58px;
-    margin-left:230px;
+    margin-left:100px;
     padding-top:100px;
 }
 .workout h5{
     font-weight: 500;
     font-size: 28px;
-    margin-left: 235px;
+    margin-left: 100px;
     margin-top: .1em;
     color: #b6b6b6;
 }
 .workout p{
 font-weight: 300;
-margin-left: 235px;
+margin-left: 100px;
 font-size: 16px;
 margin-top: .5em;
 width: 400px;
