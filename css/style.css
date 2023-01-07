@@ -7,7 +7,7 @@ header {
     text-align: right;
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 100%;
     height: 800px;
 }
@@ -68,7 +68,7 @@ header {
 .failure-section {
     display: flex;
     align-items: center;
-
+margin-top: 130px;
 }
 
 .failure-section>img {
@@ -230,7 +230,7 @@ footer {
 footer .contact-section {
 
     width: 50%;
-    margin-top: 130px;
+    margin-top: 125px;
     margin-left: 230px;
     margin-bottom: 130px;
     margin-right: 0px;
@@ -257,9 +257,9 @@ footer .subscribe-form {
     margin-right: 230px;
     padding-left: 150px;
     padding-right: 0px;
+    padding-top: 130px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: left;
 }
 
