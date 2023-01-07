@@ -7,22 +7,23 @@ header {
     text-align: right;
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
-    background-size: contain ;
-    width: 100%; 
-    height: 800px; 
+    background-size: contain;
+    width: 100%;
+    height: 800px;
 }
 
 .banner {
-    
-   padding: 216px 230px;
+
+    padding: 216px 230px;
     padding-bottom: 166px;
     text-align: end;
+
 }
 
 .banner-header {
-    
+
     width: 525px;
-  
+
     margin-left: auto;
     margin-right: 0px;
     height: 228px;
@@ -33,11 +34,11 @@ header {
 }
 
 .banner-desc {
-  
+
     margin-top: 24px;
     width: 450px;
-    height: 78px;  
-    font-weight: 300; 
+    height: 78px;
+    font-weight: 300;
     font-size: 15px;
     line-height: 26px;
     text-align: right;
@@ -60,43 +61,242 @@ header {
     font-size: 20px;
     margin-left: auto;
     margin-right: 0px;
+
+}
+
+/* failure section */
+.failure-section {
+    display: flex;
+    align-items: center;
+
+}
+
+.failure-section>img {
+    width: 570px;
+    margin-left: 150px;
+    margin-right: 40px;
+
+}
+
+.failure-section-details {
+
+    margin-right: 230px;
+}
+
+.failure-section h3 {
+
+    width: 288px;
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+
+
+.failure-section-desc {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin: 24px 0px 16px 0px;
+}
+
+.failure-section-details ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.failure-section li {
+    padding-right: 2px;
+    padding-left: 0px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.failure-section li:before {
+    content: "\2714";
+    color: #16D887;
+    margin-right: 10px;
+
+}
+
+/* my plans */
+.my-plans {
+
+
+    margin: 130px 0px;
+    padding: 0px 100px;
+
+}
+
+.my-plans>h3 {
+    margin: auto;
+    width: 200px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+
+    margin-bottom: 50px;
+}
+
+.plans {
+    display: flex;
+    justify-content: center;
+
+}
+
+.plans-item {
+    display: flex;
+    flex-direction: column;
+
+    width: fit-content;
+    margin: 50px 40px;
+    align-items: center;
+}
+
+.plans-item img {
+    width: 92px;
+    height: auto;
+}
+
+.plans-item h4 {
+
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+    margin: 16px 0px 10px 0px;
+}
+
+.plans-item p {
+
+    font-weight: 300;
+    font-size: 20px;
+    color: #737272;
 }
 
 /* second action section */
-.second-btn-section{
-margin: 30px 230px;
-background-image: url(../images/watch.png);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: left -70px bottom 0px;
-border-radius: 8px;
+.second-btn-section {
+    margin: 30px 230px;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left -70px bottom 0px;
+    border-radius: 8px;
 }
-.second-btn-section > .btn-section-contents{
+
+.second-btn-section>.btn-section-contents {
     background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
     height: 100%;
     border-radius: 8px;
 }
-.second-btn-section h3{
-  
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-width: 450px;
-padding:59px 0px 24px 64px;
-color: #FFFFFF;
+
+.second-btn-section h3 {
+
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    width: 450px;
+    padding: 59px 0px 24px 64px;
+    color: #FFFFFF;
 }
-.second-btn-section button{
+
+.second-btn-section button {
     border: 0px;
-    width: fit-content;
     margin-left: 64px;
-   margin-bottom: 59px;
+    margin-bottom: 59px;
     background-color: white;
     color: #005FAC;
-    background: #FFFFFF;
     border-radius: 5px;
     padding: 20px 35px;
     font-weight: 600;
     font-size: 20px;
-    
+}
+
+/* footer */
+footer {
+    display: flex;
+    margin-top: 130px;
+    justify-content: space-between;
+    background: #151414;
+    color: #f8f8f8;
+    width: 100%;
+}
+
+footer .contact-section {
+
+    width: 50%;
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-bottom: 130px;
     margin-right: 0px;
+}
+
+.contact-section h3 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.contact-section p {
+    font-weight: 300;
+    font-size: 16px;
+    margin: 16px auto 24px 0px;
+}
+
+.contact-section img {
+    margin-right: 17px;
+    margin-top: 10px;
+}
+
+footer .subscribe-form {
+    width: 30%;
+    margin-right: 230px;
+    padding-left: 150px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.subscribe-form h4 {
+    font-weight: 500;
+    margin-bottom: 13px;
+    font-size: 30px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+#subscribe-email {
+    width: 325px;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 26px 0px 26px 21px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+}
+
+#subscribe-submit {
+    padding: 20px 30px;
+    width: 170.11px;
+    height: 64px;
+    border: 0px;
+    margin-top: 16px;
+    color: white;
+    background: #005FAC;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
 }
