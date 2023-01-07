@@ -9,8 +9,7 @@ header {
     background-repeat: no-repeat;
     background-size: contain ;
     width: 100%; 
-    height: 800px;
-    
+    height: 800px; 
 }
 
 .banner {
@@ -60,5 +59,44 @@ header {
     font-weight: 600;
     font-size: 20px;
     margin-left: auto;
+    margin-right: 0px;
+}
+
+/* second action section */
+.second-btn-section{
+margin: 30px 230px;
+background-image: url(../images/watch.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: left -70px bottom 0px;
+border-radius: 8px;
+}
+.second-btn-section > .btn-section-contents{
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    height: 100%;
+    border-radius: 8px;
+}
+.second-btn-section h3{
+  
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+width: 450px;
+padding:59px 0px 24px 64px;
+color: #FFFFFF;
+}
+.second-btn-section button{
+    border: 0px;
+    width: fit-content;
+    margin-left: 64px;
+   margin-bottom: 59px;
+    background-color: white;
+    color: #005FAC;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 20px 35px;
+    font-weight: 600;
+    font-size: 20px;
+    
     margin-right: 0px;
 }
